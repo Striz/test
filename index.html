@@ -32,7 +32,7 @@
 @media only screen and (max-width: 600px){
 
   .navBar{
-  position: static;
+  position: fixed;
  z-index: 1004;
   width: 100%;
   
@@ -66,12 +66,14 @@
 <body>
 
 
-  <nav class="navBar" role="navigation">
+  <nav class="" role="navigation">
+    <div class="navBar">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>
+      </div>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">Navbar Link</a></li>
