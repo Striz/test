@@ -7278,13 +7278,13 @@ input[type=range]:focus::-ms-fill-upper {
   padding-bottom: 16px;
   font-weight: 400;
 }
-
+/************************************* drag target  *******************    *************/
 .drag-target {
   height: 100%;
   width: 10px;
-  position: fixed;
+  position: ;
   top: 0;
-  z-index: 998;
+  z-index: 0;
 }
 
 .side-nav.fixed {
